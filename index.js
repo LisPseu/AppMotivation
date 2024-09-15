@@ -8,7 +8,7 @@ const quotes = ["« У меня нет мечты, у меня есть цель
 "« Я — не результат обстоятельств. Я — результат собственных решений »,  — Стивен Кови.",
 "« Всегда выкладывайся на полную. Что посеешь — то и пожнешь »,  — Ог Мандино",
 "« Когда вас приперли к стенке, просто сломайте ее к черту», - Харви Спектр"] ;
-button,addEventListener("click", function(){
+button.addEventListener("click", function(){
     let randomQoutes = quotes[Math.floor(Math.random() * quotes.length)];
     par.style.display = "block";
     par.textContent = randomQoutes;
